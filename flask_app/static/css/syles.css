@@ -1,0 +1,50 @@
+/* Eliminar estilos innecesarios y aplicar Bootstrap */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón principal */
+button, .btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Estilos del modal de carga */
+.loading-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.loading-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.spinner-border {
+    margin-bottom: 10px;
+}
